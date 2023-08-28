@@ -1,0 +1,43 @@
+.seat-selection {
+    border: 1px solid #ccc;
+    z-index: 1;
+    padding: 20px;
+  }
+  
+  .seat-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .seat {
+    font-size: 18px;
+  }
+  
+  .seat-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subtract-button,
+  .add-button {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .subtract-button:hover,
+  .add-button:hover {
+    background-color: #666;
+}
+.btn{
+    margin-left: 580px;
+    margin-top:20px;
+    background-color: green;
+}
+
+ 

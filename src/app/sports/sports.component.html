@@ -1,0 +1,53 @@
+    <div>
+        <nav>
+
+            <div class="navbar">
+
+                <div class="logo"><a href="#">Ticket King</a></div>
+
+                <ul class="menu">
+
+                    <li><a routerLink="/header">HOME</a></li>
+
+                    <li><a routerLink="/concerts">CONCERTS</a></li>
+
+                    <!-- <li><a routerLink="/skill" >SKILL</a></li> -->
+
+                    <li><a routerLink="/sports">SPORTS</a></li>
+                    <!-- <li> <select name="locs" id="locs">
+
+                        <option value="Hyderabad">Hyderabad</option>
+
+                        <option value="Banglore">Banglore</option>
+
+                        <option value="pune">Pune</option>
+
+
+
+                    </select></li> -->
+
+                </ul>
+
+            </div>
+
+        </nav>
+    </div>
+<div class="h">
+    <h1>Sports</h1><hr>
+</div>
+
+<div class="main">
+    <label>Date: </label>
+    <input type="text" [(ngModel)]="date" (input)="searchByDate()"  placeholder="DD|MM|YY"/>&nbsp;&nbsp;
+    <label>Event Name: </label>
+    <span><input type="text" [(ngModel)]="eventname" (input)="searchByEvent()"  placeholder="Search Event..."/></span>
+    </div>
+    <div *ngFor="let i of temp1" class="one">
+        Date : {{i.date}} <br>
+        EventName : {{i.eventname}}<br>
+        Venue : {{i.venue}}<br>
+        Timings : {{i.timings}}
+        
+    </div>
+    
+    <button routerLink="/selection1">Book</button>

@@ -1,0 +1,23 @@
+{
+    "events":[
+    {
+        "date": "11|03|2023",
+        "eventname":"Cricket",
+        "venue":"M.A. Chidambaram stadium,Chennai,Tamil Nadu ",
+        "timings":"12:00am - 9:00pm"
+    }
+    ,
+    {
+        "date": "30|04|2023",
+        "eventname":"Kabaddi",
+        "venue":"Gachibowli Stadium,Hyderabad,Telangana",
+        "timings":"7:00pm - 9:00pm"
+    },
+    {
+        "date": "13|04|2023",
+        "eventname":"Kho-Kho",
+        "venue":"Uppal Stadium,Hyderabad,Telangana",
+        "timings":"7:00pm - 9:00pm"
+    }
+]
+}

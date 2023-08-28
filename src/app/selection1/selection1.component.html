@@ -1,0 +1,32 @@
+
+<div class="h">
+    <h1>Sports</h1><hr>
+</div>
+<div>
+    <body>
+        <h3>Details:</h3>
+
+        <div class="seat-selection">
+            <h2>Seat Selection</h2>
+            <div class="seat-row" *ngFor="let seat of seats; let i = index">
+              <div class="seat">{{ seat.name }}</div>
+              <div class="seat-controls">
+                <button class="subtract-button" (click)="subtractSeat(i)">-</button>
+                <span class="seat-count">{{ selectedSeats[i] }}</span>
+                <button class="add-button" (click)="addSeat(i)">+</button>
+              </div>
+              <div class="seat-price">{{ seat.price | currency }}</div>
+            </div>
+            <div class="total-price">
+              Total Price: {{ getTotalPrice() | currency }}
+            </div>
+          </div>
+            <!-- <button class="btn">Book</button> -->
+            <button routerLink="/output">Book</button>
+
+    </body>
+</div>
+
+
+
+

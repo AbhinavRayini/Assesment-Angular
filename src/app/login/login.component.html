@@ -1,0 +1,28 @@
+<nav>
+
+  <div class="navbar">
+
+      <div class="logo"><h1 style="color:black">Ticket King </h1></div>
+
+    </div>
+</nav>
+<div class="main">
+  
+  <h1>Welcome To Login Page</h1>
+
+
+<form (ngSubmit)="login()" #loginForm="ngForm">
+  <div>
+    <label for="email">UserName:</label>
+    <input type="email" id="email" name="email" [(ngModel)]="email" required>
+  </div>
+  <div>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" [(ngModel)]="password" required>
+  </div>
+ 
+  <button type="submit" routerlink="/header"   >Submit  </button>
+  {{err}}
+</form>
+
+</div>

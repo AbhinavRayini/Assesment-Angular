@@ -1,0 +1,23 @@
+.one{
+    border:2px solid black;
+    padding: 10px;
+    display: grid;
+    width:30%;
+    margin-top: 20px;
+    margin-left: 430px;
+    background-color: aquamarine;
+    
+}
+.main{
+    margin-left: 430px;
+    font-size: larger;
+}
+.h{
+    text-align: center;
+    background-color: aqua;
+    padding-top:6px ;
+}
+button{
+    margin-left: 580px;
+    margin-top:20px;
+}

@@ -1,0 +1,23 @@
+{
+    "events":[
+    {
+        "date": "11|03|2023",
+        "eventname":"Capricco",
+        "venue":"LB Stadium Hyderabad, Telangana",
+        "timings":"7:00pm - 9:00pm"
+    }
+    ,
+    {
+        "date": "30|04|2023",
+        "eventname":"Palazzo",
+        "venue":"CMR Campus,Hyderabad,Telanagana",
+        "timings":"7:00pm - 9:00pm"
+    },
+    {
+        "date": "13|04|2023",
+        "eventname":"Palazzo",
+        "venue":"Shilpakala Vedika,Hyderabad ,Telanagana",
+        "timings":"7:00pm - 9:00pm"
+    }
+]
+}
